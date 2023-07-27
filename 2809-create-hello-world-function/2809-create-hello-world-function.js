@@ -1,10 +1,8 @@
 /**
  * @return {Function}
  */
-var createHelloWorld = function(a = "Hello World") {
-    return function(...args){
-        return a;
-    };
+var createHelloWorld = function() {
+    return() => "Hello World"
 };
 
 /**
